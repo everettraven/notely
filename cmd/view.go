@@ -25,7 +25,7 @@ var viewCmd = cobra.Command{
 			log.Fatal(err)
 		}
 
-		p := tea.NewProgram(view)
+		p := tea.NewProgram(view, tea.WithAltScreen())
 
 		_, err = p.Run()
 		if err != nil {

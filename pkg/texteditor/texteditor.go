@@ -33,7 +33,7 @@ func NewTextEditor(opts ...TextEditorOption) *TextEditor {
 	ta.CharLimit = 0
 	ta.KeyMap.InsertNewline.SetEnabled(true)
 
-	ta.SetHeight(10)
+	ta.SetHeight(20)
 	ta.SetWidth(100)
 
 	te := &TextEditor{
