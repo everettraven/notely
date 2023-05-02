@@ -17,6 +17,7 @@ func init() {
 	rootCmd.AddCommand(&editCmd)
 	rootCmd.AddCommand(&listCmd)
 	rootCmd.AddCommand(&deleteCmd)
+	rootCmd.AddCommand(&viewCmd)
 }
 
 func Execute() {
